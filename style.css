@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+/* hero-area start */
+
+.hero-area {
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    background-color: #2D25A0;
+    padding: 100px 10px 86px 10px;
+}
+
+.hero-sec-content h1 {
+    font-size: 62px;
+    color: #FFFFFF;
+    /* margin-bottom: 10px; */
+    /* padding: 0px; */
+    margin: 0px;
+}
+.hero-sec-content button {
+    width: 150px;
+    height: 39px;
+    font-size: 16px;
+    line-height: 24px;
+    /* background-color: background: #E02C6D; */
+    background: #E02C6D;
+    border: none;
+    color: wheat;
+    /* margin-bottom: 99px; */
+    margin-top: 5px;
+    /* margin-bottom: 58px; */
+}
+button:hover {
+    transition: 2s;
+    background-color: #520521;
+}
+
+
+button, span, i {
+    margin-left: 4px;
+}
+
+.hero-sec-right img{
+
+    width: 556px;
+    height: 438px;
+}
