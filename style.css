@@ -126,3 +126,56 @@ button, span, i {
     background: #ded5d5;
     margin-right: 14px;
 }
+
+/* footer section close  */
+
+
+
+/* Mobile responsive */
+
+
+@media  screen and (max-width: 600px) {
+
+    .hero-area {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-sec-right img {
+        width: 329px;
+        height: 259px;
+        margin-top: 80px;
+    }
+    .hero-sec-content h1 {
+        font-size: 36px;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+    .hero-sec-content button {
+    
+        font-size: 16px;
+        line-height: 24px;
+        background: #E02C6D;
+        border: none;
+        color: wheat;
+        margin-top: 22px;
+
+    }
+
+/* blog section css */
+.blogs {
+    display: grid;
+    grid-template-columns: 330px;
+    justify-content: center;
+    grid-gap: 30px;
+    padding-top: 70px;
+}
+
+/* footer section blog */
+.footer-content img {
+    width: 275px;
+    height: 110px;
+}
+
+
+
+  }
