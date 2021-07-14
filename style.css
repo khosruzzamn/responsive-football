@@ -49,6 +49,11 @@ p{
     margin-top: 5px;
     /* margin-bottom: 58px; */
 }
+.hero-sec-content button a {
+    text-decoration: noe;
+    text-decoration: none;
+    color: white;
+}
 button:hover {
     transition: 2s;
     background-color: #520521;
@@ -105,6 +110,28 @@ button, span, i {
     padding:10px 15px 15px 15px;
     margin:0px;
 }
+
+
+  /* highlight section css */
+
+  .highlight-area {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    /* background-color: #2D25A0; */
+    /* padding: 100px 10px 86px 10px; */
+    margin: 64px 137px;
+}
+.highlight-area h1 {
+    color: black;
+}
+  
+
+
+
+
 
 
 /* footer part  */
@@ -170,6 +197,16 @@ button, span, i {
     padding-top: 70px;
 }
 
+
+    .highlight-area {
+        display: flex;
+        place-content: center space-around;
+        flex-direction: column;
+        align-items: center;
+        margin: 64px 137px;
+    }
+
+
 /* footer section blog */
 .footer-content img {
     width: 275px;
@@ -179,3 +216,5 @@ button, span, i {
 
 
   }
+
+
