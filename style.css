@@ -105,3 +105,24 @@ button, span, i {
     padding:10px 15px 15px 15px;
     margin:0px;
 }
+
+
+/* footer part  */
+
+.footer-content img{
+
+    width: 483px;
+    height:110px;
+}
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+     margin-top:90px;
+}
+
+.social-icon span {
+    border-radius: 50%;
+    background: #ded5d5;
+    margin-right: 14px;
+}
