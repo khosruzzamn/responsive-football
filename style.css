@@ -48,6 +48,8 @@ p{
     /* margin-bottom: 99px; */
     margin-top: 5px;
     /* margin-bottom: 58px; */
+    animation-name: example;
+    animation-duration: 4s;
 }
 .hero-sec-content button a {
     text-decoration: noe;
@@ -68,7 +70,17 @@ button, span, i {
 
     width: 556px;
     height: 438px;
+    
 }
+@keyframes example {
+    from {
+        background-color: red;
+    }
+    to {
+        
+        background-color: salmon;
+    }
+  }
 
 /* blog section start */
 
@@ -371,6 +383,10 @@ input[type="text"] {
 
 
 
+
+
   }
+
+  
 
 
