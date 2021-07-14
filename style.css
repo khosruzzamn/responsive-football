@@ -197,7 +197,27 @@ button, span, i {
     margin-right: 14px;
 }
 
+/* gallery css*/
 
+
+.players {
+    display: grid;
+    grid-template-columns: row;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    grid-gap: 15px;
+}
+.player img {
+    width: 300px;
+}
+.player img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+.player-gallery {
+    text-align: center;
+    font-size: 35px;
+}
 
 /* newsletter  css start */
 
@@ -335,7 +355,13 @@ input[type="text"] {
     /* padding: 100px; */
     padding: 5px;
 }
-
+/* gallery  */
+.players {
+    display: grid;
+    grid-template-columns: 330px;
+    justify-content: center;
+    grid-gap: 20px;
+}
 
 /* footer section blog */
 .footer-content img {
