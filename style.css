@@ -127,6 +127,49 @@ button, span, i {
 .highlight-area h1 {
     color: black;
 }
+
+
+/* newslater part start */
+.section {
+    background: #0e9daf;
+  }
+  
+  .section-container {
+    background: #0D8C5D;
+    max-width: 900px;
+    margin: 0 auto;
+  
+    padding: 20px 60px;
+    text-align: center;
+  }
+  
+  .section-container p {
+    color: #fff;
+  }
+  
+  form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: -8px;
+  }
+  
+  form > * {
+    margin: 8px 3px;
+  }
+  
+  .col-1 {
+    flex: 0 1 25em;
+  }
+  
+  .form-email {
+    padding: 8px 8px;
+    border: 1px solid transparent;
+    border-radius: 0.1875em;
+    background: #fff;
+    font-size: 1.1rem;
+    width: 100%;
+  }
   
 
 
@@ -152,6 +195,62 @@ button, span, i {
     border-radius: 50%;
     background: #ded5d5;
     margin-right: 14px;
+}
+
+
+
+/* newsletter  css start */
+
+.newsletter-section {
+    background-color: #2d25a0;
+    padding: 100px;
+}
+
+.newsletter-content{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+.newsletter-content h1{
+       color:white;
+
+}
+.newsletter-content p{
+    color:white;
+}
+.newslatter-submition {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+.newslatter-submition {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+input[type="text"] {
+    /* padding: 9px 121px; */
+    width: 400px;
+    height: 37px;
+}
+
+.submit-buton {
+    /* padding: 20px; */
+    /* width: 83px; */
+}
+
+button.signupbtn {
+    width: 90px;
+    height: 42px;
+    margin-left: 0px;
+    background-color: #e02c6d;
+    border: none;
+    color: white;
 }
 
 /* footer section close  */
@@ -205,6 +304,37 @@ button, span, i {
         align-items: center;
         margin: 64px 137px;
     }
+
+
+/* newslatter sectonoo */
+.newslatter-submition {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.newslatter-submition {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.newslatter-submition {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+input[type="text"] {
+    /* padding: 0px 50px; */
+    width: 200px;
+    height: 37px;
+}
+.newsletter-section {
+    background-color: #2d25a0;
+    /* padding: 100px; */
+    padding: 5px;
+}
 
 
 /* footer section blog */
